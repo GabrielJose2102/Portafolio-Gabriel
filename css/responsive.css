@@ -1,0 +1,612 @@
+/* Resolution 1000px*/
+
+/* Estilos Responsive */
+@media (max-width: 1000px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+
+  .txt-white {
+    font-size: 1.2rem;
+  }
+
+  .txt-tittle-modify {
+    font-size: 1.6rem;
+  }
+
+  .presentation h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .presentation .description {
+    font-size: 1.2rem;
+  }
+
+  .content-presentation {
+    margin-top: -50px;
+  }
+
+  .btn-presentation a {
+    padding: 15px 20px;
+  }
+
+  .image-presentation {
+    margin-top: 10rem;
+    max-width: 200px;
+  }
+
+  .content-summary {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .info-summary {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .experence {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .h2-experence {
+    font-size: 2rem;
+  }
+
+  .content-project {
+    flex-direction: column;
+  }
+
+  .title-project {
+    font-size: 2rem;
+  }
+
+  .content-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card {
+    height: 400px;
+  }
+
+  .image-slider {
+    height: 200px;
+  }
+
+  .proporsal {
+    flex-direction: column;
+  }
+
+  .proporsal .text-proporsal {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .proporsal .text-proporsal h3 {
+    font-size: 2rem;
+  }
+
+  .proporsal .text-proporsal p {
+    font-size: 1.5rem;
+  }
+
+  .tecnologies {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-tecnology {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    padding: 10px;
+  }
+
+  .links a i {
+    font-size: 1.5rem;
+  }
+
+  .signature {
+    font-size: 1rem;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 990px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+
+  .content-link {
+    width: 50%;
+    margin: 0 35% 0 10%;
+  }
+
+  .redes {
+    flex-direction: column;
+  }
+
+  .presentation .welcome {
+    margin-left: 3rem;
+  }
+
+  .img-presentation {
+    height: 16rem;
+  }
+
+  .presentation .description {
+    margin-left: 4.5rem;
+  }
+
+  .btn-presentation {
+    margin-left: auto;
+  }
+
+  .icon-summary {
+    font-size: 2.8rem;
+  }
+
+  .title-summary {
+    font-size: 1rem;
+  }
+
+  .description-summary {
+    font-size: 0.8rem;
+  }
+}
+
+/* Ajustes para pantallas grandes (laptop y superiores) */
+@media (min-width: 992px) {
+  .presentation h2 {
+    font-size: 3.5rem;
+  }
+
+  .presentation .description {
+    font-size: 1.5rem;
+  }
+
+  .btn-presentation a {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+  }
+
+  .content-summary {
+    flex-wrap: nowrap;
+    height: 12rem;
+  }
+}
+
+/* Ajustes para tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  .presentation h2 {
+    font-size: 3rem;
+  }
+
+  .presentation .description {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .btn-presentation a {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+
+  .content-summary {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .tecnologies {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card-tecnology {
+    width: 40%;
+  }
+}
+
+/* Pantallas medianas: tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar*/
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+
+  .content-link {
+    width: 50%;
+    margin: 0 35% 0 10%;
+  }
+
+  .redes {
+    flex-direction: column;
+  }
+
+  .presentation .welcome {
+    margin-left: 3rem;
+  }
+
+  .img-presentation {
+    height: 16rem;
+  }
+
+  .presentation .description {
+    margin-left: 1rem;
+  }
+
+  .btn-presentation {
+    margin-left: auto;
+  }
+
+  .icon-summary {
+    font-size: 2.8rem;
+  }
+
+  .title-summary {
+    font-size: 1rem;
+  }
+
+  .description-summary {
+    font-size: 0.8rem;
+  }
+
+  /* Presentation */
+
+  .presentation h2 {
+    font-size: 3rem;
+  }
+
+  .presentation .description {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .btn-presentation a {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+
+  .content-summary {
+    flex-wrap: nowrap;
+    height: 12rem;
+  }
+
+  /* Project */
+
+  .content-projects {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en tabletas */
+  }
+
+  .content-summary {
+    flex-direction: row;
+    height: auto;
+  }
+
+  /* tecnologies */
+
+  .tecnologies {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card-tecnology {
+    width: 40%;
+  }
+
+  .tecnology {
+    width: 45%;
+    font-size: 0.9rem;
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .image-presentation {
+    max-width: 250px;
+    margin: auto;
+    margin-right: 10px;
+    height: 23px;
+  }
+
+  .presentation .description {
+    margin-left: 1rem;
+  }
+
+  .tecnology {
+    width: 45%;
+    font-size: 0.9rem;
+  }
+
+  .content-projects {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en tabletas */
+  }
+
+  .content-card {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Dos columnas en pantallas medianas */
+  }
+
+  .tecnologies {
+    justify-content: center; /* Centra las tarjetas en pantallas más pequeñas */
+  }
+
+  .card-tecnology {
+    width: 45%; /* Aumenta el ancho de las tarjetas en pantallas pequeñas */
+  }
+}
+
+/* Ajustes para pantallas móviles */
+@media (max-width: 767px) {
+  .presentation h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .presentation .description {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .btn-presentation a {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .content-summary {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .info-summary {
+    margin-bottom: 1.5rem;
+  }
+
+  .tecnologies {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-tecnology {
+    width: 90%;
+  }
+
+  .footer {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .links a i {
+    font-size: 1.5rem;
+  }
+
+  .signature {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .contact-info,
+  .signature,
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsividad: ajuste en pantallas pequeñas */
+@media (max-width: 576px) {
+  .content-card {
+    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+  }
+
+  .project-card {
+    height: auto; /* Ajusta la altura automáticamente en pantallas más pequeñas */
+  }
+}
+
+/* Pantallas pequeñas: móviles */
+@media (min-width: 375px) and (max-width: 767px) {
+  /* presentation */
+
+  .txt-white {
+    font-size: 2rem;
+  }
+
+  .presentation h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .presentation .description {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 0;
+    width: 97%;
+  }
+
+  .btn-presentation {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-presentation a {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+  }
+
+  /* proporsal */
+
+  .btn-proporsal a {
+    margin: 5px;
+  }
+
+  /*Summary*/
+
+  .content-summary {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .info-summary {
+    margin-bottom: 1.5rem;
+  }
+
+  .title-content {
+    margin-bottom: 20px;
+  }
+
+  /* Project */
+
+  .content-projects {
+    grid-template-columns: 1fr; /* Una columna en móviles */
+  }
+
+  /* tecnologies */
+
+  .tecnology {
+    width: 60%;
+    font-size: 1rem;
+  }
+
+  .tecnologies {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-tecnology {
+    width: 90%;
+  }
+
+  .content-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* footer*/
+  .footer-project {
+    justify-content: center;
+  }
+
+  .footer {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .links a i {
+    font-size: 1.5rem;
+  }
+
+  .signature {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  
+
+  .presentation h2 {
+    font-size: 2rem;
+  }
+
+  .presentation .description {
+    font-size: 0.9rem;
+  }
+
+  .btn-presentation a {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+
+  .description-p {
+    width: 300px;
+  }
+
+  .content-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tecnologies {
+    gap: 15px;
+  }
+
+  .card-tecnology {
+    width: 100%;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer {
+    padding: 0.5rem 0;
+  }
+
+  .signature {
+    font-size: 0.7rem;
+  }
+
+  .tecnology {
+    width: 60%;
+    font-size: 1rem;
+  }
+
+  .footer-project {
+    justify-content: center;
+  }
+
+  .content-projects {
+    grid-template-columns: 1fr; /* Una columna en móviles */
+  }
+
+  .card-tecnology {
+    width: 100%; /* Las tarjetas ocupan todo el ancho de la pantalla en dispositivos móviles */
+  }
+
+  .txt-white {
+    font-size: 2rem;
+  }
+}
+
+/* Pantallas muy pequeñas (móviles más pequeños) */
+@media (max-width: 320px) {
+  .tecnology {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .footer-project {
+    justify-content: center;
+  }
+}

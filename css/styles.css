@@ -1,0 +1,522 @@
+/* Resposive start*/
+
+
+
+/*Resposive end*/
+
+/* Fuente de la página */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+body {
+  color: #fff;
+  background: linear-gradient(90deg, #000000, #233446);
+}
+
+/* Texto blanco general */
+.icon {
+  color: #fff;
+  transition: color 0.5s;
+  font-size: 2.5rem;
+}
+
+
+
+.icon:hover {
+  color: #4d80b8;
+}
+
+/* Navbar */
+.modify-navbar {
+  height: 4rem;
+}
+
+.container-modify {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.content-link {
+  position: relative;
+  width: 25%;
+  justify-items: baseline;
+  margin-left: 25%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.redes {
+  width: 10rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+.redes a:hover {
+  color: #2564a8;
+}
+
+.icon-red {
+
+}
+
+/* Links de la barra de navegación */
+.navbar-nav .nav-item .selected {
+  color: #2564a8;
+}
+
+.txt-white {
+  font-size: 1.5rem;
+}
+
+.txt-tittle-modify {
+  font-size: 2rem;
+}
+
+/* Header presentación */
+.header {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.content-presentation {
+  height: 100%;
+  display: flex;
+  margin-top: -100px;
+}
+
+.presentation {
+  max-width: 1000px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.presentation h2 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  color: #354e69;
+  margin-left: 0.7rem;
+}
+
+.presentation .description {
+  max-width: 700px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 0.7rem;
+}
+
+.btn-presentation {
+  margin-top: 30px;
+}
+
+.presentation a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.presentation a:hover {
+  background-color: #354e69;
+}
+
+.btn-cv {
+  color: #fff;
+}
+
+.btn-cv:hover {
+  background-color: #354e69;
+  color: #fff;
+}
+
+.image-presentation {
+  max-width: 250px;
+  margin: 15rem auto 0 100px;
+  height: 23px;
+}
+
+.img-presentation {
+  width: 100%;
+  height: 20rem;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+/* Resumen */
+.content-summary {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 10rem;
+  margin: 8rem auto 0;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.info-summary {
+  width: 250px;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-summary {
+  font-size: 3rem;
+  color: #eee;
+}
+
+.title-summary,
+.description-summary {
+  color: #eee;
+}
+
+.title-summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.description-summary {
+  font-size: 1rem;
+}
+
+/* Experence */
+
+.experence {
+  width: 90%;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+}
+
+.h2-experence {
+  font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.content-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.title-content {
+  width: 40%;
+  display: flex;
+}
+
+.img-project {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.text-title {
+  margin-top: 1rem;
+}
+
+.description-content {
+  width: 50%;
+}
+
+.date-description {
+  font-weight: bold;
+}
+
+/* Project */
+.project-link {
+  text-decoration: none;
+  color: #ddd;
+}
+.title-project {
+  font-size: 2.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+.content-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 40px;
+
+}
+
+.project-card {
+  width: 95%; 
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 30px;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Slider de imágenes */
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+/* Título del proyecto */
+.project-title {
+  font-size: 1.5rem;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Descripción del proyecto */
+.project-description {
+  font-size: 0.7rem;
+  margin: 10px;
+  text-align: center;
+  overflow: hidden; 
+}
+
+/* Tecnologías utilizadas */
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.technology {
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 0.8rem;
+  color: #233446;
+}
+
+/* Proporsal */
+
+hr {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #aaa;
+}
+
+.proporsal {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding: 3rem 1.5rem;
+  border: 1px solid #aaa;
+  border-radius: 1.5rem;
+}
+
+.text-proporsal {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.text-proporsal h3 {
+  font-size: 2.5rem;
+}
+
+.text-proporsal p {
+  font-size: 1.8rem;
+  color: #aaa;
+}
+
+.btn-proporsal {
+  display: flex;
+  margin: auto;
+}
+
+.btn-proporsal a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.btn-proporsal a:hover {
+  background-color: #354e69;
+  color: #fff;
+}
+
+.icon-proporsal {
+  font-size: 1.5rem;
+}
+
+/* Technology */
+
+.title-tecnology {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 3rem;
+}
+
+.tecnologies {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten automáticamente */
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card-tecnology {
+  background-color: #354e69;
+  width: 7.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card-tecnology:hover {
+  background-color: #cccc;
+}
+
+.card-tecnology:hover .icon-tecn{
+  color: #000;
+}
+
+.card-tecnology:hover .name-tecnology {
+  color: #000000;
+}
+
+
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px;
+  background-color: #354e69;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.content-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+
+}
+
+.links {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a i {
+  font-size: 2.5rem;
+}
+
+.signature {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5rem;
+  transition: color 0.3s;
+}
+
+
+.icon:hover {
+  color: #777; /* Color para hover */
+}
+
+.footer-info {
+  margin-top: 10px;
+}
+
+
+.contact-info {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #bbb;
+}
